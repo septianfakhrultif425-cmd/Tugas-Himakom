@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Septian Fakhrul Hikam</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <p class="loading-text">Memuat...</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#beranda" class="nav-logo">
+                <span class="logo-text">SF</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+                <li><a href="#profil" class="nav-link">Profil</a></li>
+                <li><a href="#skill" class="nav-link">Skill</a></li>
+                <li><a href="#penugasan" class="nav-link">Penugasan</a></li>
+                <li><a href="#portofolio" class="nav-link">Portofolio</a></li>
+                <li><a href="#kontak" class="nav-link">Kontak</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Beranda Section -->
+    <section id="beranda" class="hero">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting fade-in-up">Halo, Saya</p>
+                <h1 class="hero-name fade-in-up delay-1">Septian Fakhrul Hikam</h1>
+                <h2 class="hero-title fade-in-up delay-2">
+                    <span class="typing-text"></span><span class="cursor">|</span>
+                </h2>
+                <p class="hero-desc fade-in-up delay-3">
+                    Mahasiswa Teknik Komputer Semester 2 yang passionate dalam dunia programming dan teknologi. 
+                    Selalu antusias untuk belajar hal baru dan mengembangkan keterampilan di bidang IT.
+                </p>
+                <div class="hero-buttons fade-in-up delay-4">
+                    <a href="#profil" class="btn btn-primary">
+                        <i class="fas fa-user"></i> Lihat Profil
+                    </a>
+                    <a href="#kontak" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Hubungi Saya
+                    </a>
+                </div>
+                <div class="hero-social fade-in-up delay-5">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="hero-image fade-in-right">
+                <div class="image-wrapper">
+                    <div class="image-bg"></div>
+                    <img src="assets/profile.png" alt="Septian Fakhrul Hikam" class="profile-img">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- Profil Diri Section -->
+    <section id="profil" class="profil">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Tentang Saya</span>
+                <h2 class="section-title">Profil Diri</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="profil-content">
+                <div class="profil-image reveal-left">
+                    <div class="image-card">
+                        <img src="assets/profile2.png" alt="Profil">
+                        <div class="experience-badge">
+                            <span class="exp-number">2</span>
+                            <span class="exp-text">Semester</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="profil-info reveal-right">
+                    <h3 class="profil-name">Septian Fakhrul Hikam</h3>
+                    <p class="profil-role">Mahasiswa Teknik Komputer</p>
+                    <div class="profil-details">
+                        <div class="detail-item">
+                            <i class="fas fa-university"></i>
+                            <div>
+                                <span class="detail-label">Universitas</span>
+                                <span class="detail-value">Politeknik Negeri Bandung</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <span class="detail-label">Program Studi</span>
+                                <span class="detail-value">D4 Teknik Informatika</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-id-card"></i>
+                            <div>
+                                <span class="detail-label">NIM</span>
+                                <span class="detail-value">251524087</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="detail-label">Email</span>
+                                <span class="detail-value">septian.fakhrul.tif425@polban.ac.id</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="detail-label">Alamat</span>
+                                <span class="detail-value">Jl. Cibogo Atas No. 128, Bandung</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profil-bio">
+                        <p>
+                            Saya adalah mahasiswa semester 2 yang memiliki ketertarikan besar dalam bidang 
+                            pemrograman dan teknologi informasi. Saya senang mempelajari hal-hal baru terkait 
+                            dengan pengembangan web, Game development, jaringan komputer, dan sistem operasi. 
+                        </p>
+                        <p>
+                            Dalam perjalanan akademik saya, saya aktif mengikuti berbagai kegiatan organisasi 
+                            kampus dan selalu berusaha untuk mengembangkan diri baik secara akademik maupun non-akademik.
+                        </p>
+                    </div>
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Section -->
+    <section id="skill" class="skill">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Kemampuan</span>
+                <h2 class="section-title">Skill & Minat</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skill-grid">
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML & CSS</h3>
+                    <p>Mampu membuat struktur dan styling website yang responsif dan modern.</p>
+                    <div class="skill-level">
+                        <div class="progress-bar" data-progress="85">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card reveal-up delay-1">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Memahami konsep dasar JavaScript untuk membuat website interaktif.</p>
+                    <div class="skill-level">
+                        <div class="progress-bar" data-progress="70">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card reveal-up delay-2">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <p>Menguasai dasar-dasar pemrograman Python untuk berbagai aplikasi.</p>
+                    <div class="skill-level">
+                        <div class="progress-bar" data-progress="75">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card reveal-up delay-3">
+                    <div class="skill-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Jaringan Komputer</h3>
+                    <p>Memahami konsep dasar jaringan dan konfigurasi perangkat network.</p>
+                    <div class="skill-level">
+                        <div class="progress-bar" data-progress="65">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database</h3>
+                    <p>Mengetahui dasar-dasar SQL dan manajemen database.</p>
+                    <div class="skill-level">
+                        <div class="progress-bar" data-progress="60">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card reveal-up delay-1">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Version Control</h3>
+                    <p>Menggunakan Git untuk manajemen versi kode program.</p>
+                    <div class="skill-level">
+                        <div class="progress-bar" data-progress="70">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Penugasan Section -->
+    <section id="penugasan" class="penugasan">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Tugas Kuliah</span>
+                <h2 class="section-title">Penugasan</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="penugasan-tabs">
+                <button class="tab-btn active" data-tab="penugasan1">
+                    <i class="fas fa-file-alt"></i> Penugasan 1
+                </button>
+                <button class="tab-btn" data-tab="penugasan2">
+                    <i class="fas fa-file-pdf"></i> Penugasan 2
+                </button>
+                <button class="tab-btn" data-tab="penugasan3">
+                    <i class="fas fa-image"></i> Penugasan 3
+                </button>
+                <button class="tab-btn" data-tab="penugasan4">
+                    <i class="fas fa-images"></i> Penugasan 4
+                </button>
+            </div>
+
+            <!-- Penugasan 1 -->
+            <div class="tab-content active" id="penugasan1">
+                <div class="assignment-card reveal-up">
+                    <div class="assignment-header">
+                        <div class="assignment-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="assignment-info">
+                            <h3>Pemrograman Web Dasar</h3>
+                        </div>
+                    </div>
+                    <div class="assignment-body">
+                        <p>
+                            Tugas ini berisi tentang pembuatan halaman web statis menggunakan HTML dan CSS. 
+                            Dalam tugas ini, saya mempelajari cara membuat struktur HTML yang baik dan 
+                            menerapkan styling dengan CSS untuk membuat tampilan yang menarik.
+                        </p>
+                        <div class="assignment-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Web Design</span>
+                        </div>
+                    </div>
+                    <div class="assignment-footer">
+                        <span class="assignment-status completed"><i class="fas fa-check-circle"></i> Selesai</span>
+                        <a href="#" class="btn btn-small">
+                            <i class="fas fa-eye"></i> Lihat Detail
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Penugasan 2 -->
+            
+            <div class="tab-content" id="penugasan2">
+                <div class="assignment-card reveal-up">
+                    <div class="assignment-header">
+                        <div class="assignment-icon">
+                            <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="assignment-info">
+                        <h3>Penugasan Persuratan Kegiatan</h3>
+                    </div>
+                </div>
+
+                <div class="assignment-body">
+                    <div class="assignment-description" style="margin-bottom: 20px;">
+                        <h4 style="color: var(--primary-color); margin-bottom: 8px;">Tujuan & Hasil</h4>
+                        <p>
+                            Penugasan ini bertujuan untuk merancang inovasi kegiatan LKMM-TH (Latihan Kepemimpinan Manajemen Mahasiswa Tingkat Himpunan) agar lebih efektif dan aplikatif bagi angkatan 2026.
+                        </p>
+                        <ul style="margin-top: 10px; padding-left: 20px; font-size: 0.9em;">
+                            <li><strong>Inovasi:</strong> Mengatasi jeda waktu yang terlalu panjang dari konsep sebelumnya agar implementasi program kerja lebih optimal.</li>
+                            <li><strong>Administrasi:</strong> Penyusunan TOR formal dengan batasan anggaran maksimal Rp800.000.</li>
+                        </ul>
+                    </div>
+
+            <div class="pdf-viewer" style="width: 100%; height: 500px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; margin-bottom: 15px;">
+                <iframe src="assets/TOR_Pergerakan_Septian.pdf" width="100%" height="100%" style="border: none;">
+                    Browser Anda tidak mendukung pratinjau PDF. 
+                    <a href="assets/TOR_Pergerakan_Septian.pdf">Klik di sini untuk mengunduh.</a>
+                </iframe>
+            </div>
+
+            <div class="file-viewer">
+                <div class="file-info">
+                    <i class="fas fa-file-pdf file-icon"></i>
+                    <div class="file-details">
+                        <span class="file-name">TOR Pergerakan Septian.pdf</span>
+                        <span class="file-size">336 kb</span>
+                    </div>
+                </div>
+                <div class="file-actions">
+                    <a href="assets/TOR.pdf" target="_blank" class="btn btn-small btn-view">
+                        <i class="fas fa-eye"></i> Lihat Layar Penuh
+                    </a>
+                    <a href="assets/TOR.pdf" download class="btn btn-small btn-download">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="assignment-footer">
+            <span class="assignment-status completed"><i class="fas fa-check-circle"></i> Selesai</span>
+        </div>
+    </div>
+</div>
+
+            <!-- Penugasan 3 -->
+            <div class="tab-content" id="penugasan3">
+                <div class="assignment-card reveal-up">
+                    <div class="assignment-header">
+                        <div class="assignment-icon">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <div class="assignment-info">
+                            <h3>Penugasan Infografis Informatif</h3>
+                        </div>
+                    </div>
+                    <div class="assignment-body">
+                        <p>
+                            Penugasan infografis yang bertujuan menyampaikan
+                            informasi secara ringkas, visual, dan mudah dipahami.
+                        </p>
+                        <div class="photo-gallery">
+                            <div class=>
+                                <img src="" alt="">
+                                
+                            </div>
+                            <div class="photo-item" onclick="openLightbox(this)">
+                                <img src="assets/photo1.jpg" alt="">
+                                <div class="photo-overlay">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </div>
+                            <div class=>
+                                <img src="assets/photo3.jpg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="assignment-footer">
+                        <span class="assignment-status completed"><i class="fas fa-check-circle"></i> Selesai</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Penugasan 4 -->
+            <div class="tab-content" id="penugasan4">
+                <div class="assignment-card reveal-up">
+                    <div class="assignment-header">
+                        <div class="assignment-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <div class="assignment-info">
+                            <h3>Penugasan Video Kreatif</h3>
+                        </div>
+                    </div>
+
+                    <div class="assignment-body">
+                        <div class="assignment-description" style="margin-bottom: 20px;">
+                            <h4 style="color: var(--primary-color); margin-bottom: 8px;">Tujuan & Hasil</h4>
+                            <p>
+                                Video ini berisi perkenalan diri serta pemaparan solusi atas studi kasus sinergi birokrasi dan kebijakan manajemen kampus terkait program kerja Himakom.
+                            </p>
+                        </div>
+
+            <div class="video-container" style="width: 100%; border-radius: 10px; overflow: hidden; background: #000;">
+                <video width="100%" controls>
+                    <source src="assets/video_tugas4.mov" type="video/quicktime">
+                    <source src="assets/video_tugas4.mov" type="video/mp4">
+                    Browser Anda tidak mendukung pemutaran video ini.
+                </video>
+            </div>
+            <p style="font-size: 0.8em; color: #666; margin-top: 10px;">
+                *Catatan: Jika video tidak tampil, pastikan browser Anda mendukung format .mov atau gunakan browser Safari/Chrome versi terbaru.
+            </p>
+        </div>
+
+        <div class="assignment-footer">
+            <span class="assignment-status completed">
+                <i class="fas fa-check-circle"></i> Selesai
+            </span>
+        </div>
+    </div>
+</div>
+    <!-- Portofolio Section -->
+    <section id="portofolio" class="portofolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Pengalaman</span>
+                <h2 class="section-title">Riwayat Organisasi</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="portofolio-grid">
+                <div class="portofolio-card reveal-up">
+                    <div class="portofolio-image">
+                        <img src="assets/org1.jpg" alt="Himpunan Mahasiswa">
+                        <div class="portofolio-overlay">
+                            <a href="#" class="overlay-btn"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="portofolio-content">
+                        <span class="portofolio-category">Organisasi</span>
+                        <h3>Anggota Aktif Himpunan Mahasiswa Teknik Komputer</h3>
+                        <p>
+                            Bergabung sebagai anggota aktif di Himpunan Mahasiswa Teknik Komputer 
+                            sejak semester 1. Terlibat dalam berbagai kegiatan organisasi kampus.
+                        </p>
+                        <div class="portofolio-meta">
+                            <span><i class="fas fa-calendar"></i> 2025 - Sekarang</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Bandung</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portofolio-card reveal-up delay-1">
+                    <div class="portofolio-image">
+                        <img src="assets/org2.jpg" alt="UKM Programming">
+                        <div class="portofolio-overlay">
+                            <a href="#" class="overlay-btn"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="portofolio-content">
+                        <span class="portofolio-category">UKM</span>
+                        <h3>UKM Asosiasi mahasiswa islam Politeknik Negeri Bandung</h3>
+                        <p>
+                            Anggota UKM Asosiasi Mahasiswa Islam Politeknik Negeri Bandung, ukm yang berfokus untuk menyebarkan dakwah islam di lingkungan kampus.
+                        </p>
+                        <div class="portofolio-meta">
+                            <span><i class="fas fa-calendar"></i> 2025 - Sekarang</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Bandung</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portofolio-card reveal-up delay-2">
+                    <div class="portofolio-image">
+                        <img src="assets/org3.jpg" alt="Panitia Event">
+                        <div class="portofolio-overlay">
+                            <a href="#" class="overlay-btn"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="portofolio-content">
+                        <span class="portofolio-category">Panitia</span>
+                        <h3>Presidium LKMM-TH 2025</h3>
+                        <p>
+                            Menjadi bagian dari penyelenggara LKMM-TH tepatnya menjadi presidium sidang istimewa pengesahan program kerja.
+                        </p>
+                        <div class="portofolio-meta">
+                            <span><i class="fas fa-calendar"></i> November 2025</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Lt. 5 Aula Gedung dan Kelas H506, Politeknik Negeri Bandung</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="kontak">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Hubungi Saya</span>
+                <h2 class="section-title">Kontak</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="kontak-grid">
+                <div class="kontak-card reveal-up">
+                    <div class="kontak-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>septian.fakhrul.tif425@polban.ac.id</p>
+                    <a href="mailto:andi.pratama@student.uti.ac.id" class="kontak-link">
+                        Kirim Email <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="kontak-card reveal-up delay-1">
+                    <div class="kontak-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p>+62 821-1629-4488</p>
+                    <a href="https://wa.me/6282116294488" class="kontak-link" target="_blank">
+                        Chat WhatsApp <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="kontak-card reveal-up delay-2">
+                    <div class="kontak-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Instagram</h3>
+                    <p>@septianfakhrul_</p>
+                    <a href="https://www.instagram.com/septianfakhrul_?igsh=MXh0eWJrcXVoMmZhOA%3D%3D&utm_source=qr" class="kontak-link" target="_blank">
+                        Follow Instagram <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="kontak-card reveal-up">
+                    <div class="kontak-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Lokasi</h3>
+                    <p>Bandung, Indonesia</p>
+                    <a href="https://maps.app.goo.gl/rHyj2kTgNX2PJKcq5?g_st=ic" class="kontak-link">
+                        Lihat Peta <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="kontak-form-wrapper reveal-up">
+                <h3>Kirim Pesan</h3>
+                <form class="kontak-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nama</label>
+                            <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subjek</label>
+                        <input type="text" id="subject" name="subject" placeholder="Masukkan subjek pesan" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Kirim Pesan
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">SF</span>
+                    <p>Septian Fakhrul Hikam - Mahasiswa Teknik Komputer</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Septian Fakhrul Hikam. Dibuat dengan <i class="fas fa-heart"></i> untuk tugas portofolio.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightboxImg">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+    <!-- PDF Viewer Modal -->
+    <div class="modal" id="pdfModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Laporan_Jaringan_Komputer.pdf</h3>
+                <span class="modal-close" onclick="closePDF()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="pdf-placeholder">
+                    <i class="fas fa-file-pdf"></i>
+                    <p>Preview PDF akan ditampilkan di sini</p>
+                    <p class="pdf-note">Dalam implementasi nyata, gunakan &lt;embed&gt; atau &lt;iframe&gt; untuk menampilkan PDF</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMessage">Pesan berhasil dikirim!</span>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
