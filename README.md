@@ -1,16 +1,21 @@
-# Portfolio Open Recruitment Himakom 2025 - Septian Fakhrul Hikam 
+# Portfolio Open Recruitment Himakom 2025 - Septian Fakhrul Hikam
 
-Repository ini berisi source code website portofolio untuk seleksi Open Recruitment Himakom Polban.
+Repository ini berisi seluruh berkas penugasan Open Recruitment Himakom Polban.
 
-## 🔗 Link Website (Deploy)
+## 🔗 Link Website (Live)
+https://septianfakhrultif425-cmd.github.io/Tugas-Himakom/
 
+##  Daftar Penugasan
+1. **Penugasan 1:** Website Portofolio (HTML, CSS, JS).
+2. **Penugasan 2:** TOR LKMM-TH (Inovasi Manajemen & RAB Rp800.000).
+3. **Penugasan 3:** Infografis Informatif (Tema: Kesehatan Mental salam Pendidikan Tinggi).
+4. **Penugasan 4:** Video Kreatif (Profil & Solusi Studi Kasus).
 
-## 📁 Daftar Penugasan
-1. [cite_start]**Penugasan 1:** Website Portfolio Personal[cite: 12].
-2. [cite_start]**Penugasan 2:** TOR Kegiatan LKMM-TH (Inovasi Manajemen)[cite: 54, 63].
-3. [cite_start]**Penugasan 3:** Infografis Informatif (Tema: [Sebutkan Temamu])[cite: 87, 90].
-4. [cite_start]**Penugasan 4:** Video Kreatif (Profil & Solusi Studi Kasus)[cite: 111, 112].
+##  Teknologi
+- **Frontend:** HTML5, CSS3, JavaScript.
+- **Deployment:** GitHub Pages.
 
-## 🛠️ Teknologi yang Digunakan
-- [cite_start]HTML, CSS, JavaScript[cite: 15].
-- [cite_start][Sebutkan teknologi lain jika ada, misal Tailwind CSS][cite: 18].
+##  Catatan
+- Semua file penugasan (PDF & Gambar) tersedia di dalam folder `assets`.
+- Karena ukuran file video terlalu besar dan tidak bisa dimasukkan ke dalam assets saya lampirkan link google drive
+- Video penugasan menggunakan narasi langsung sesuai indikator penilaian.
