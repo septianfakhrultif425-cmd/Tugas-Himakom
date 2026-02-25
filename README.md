@@ -2,7 +2,7 @@
 
 Repository ini berisi seluruh berkas penugasan Open Recruitment Himakom Polban.
 
-## 🔗 Link Website (Live)
+##  Link Website (Live)
 https://septianfakhrultif425-cmd.github.io/Tugas-Himakom/
 
 ##  Daftar Penugasan
